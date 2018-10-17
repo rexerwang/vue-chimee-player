@@ -8,7 +8,7 @@ chimee player component/directive for vue
 1. 基本参数与 chimee 保持一致，有下列新增参数:
 
    - source: {Array} 当前播放源数组 [{src: 播放源, resolution: 清晰度}]
-   - [clarity]: {Number|String} 指定播放清晰度，默认最低清晰度 1080|720|480|360|'free'|'auto'
+   - [clarity]: {Number|String} 指定播放清晰度，默认最低清晰度 1080|720|480|360|'auto'
 
    **若指定 src|plugin.chimeeControl, 则覆盖上述新增参数**
 
