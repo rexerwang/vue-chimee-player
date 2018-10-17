@@ -1,12 +1,24 @@
 {
   "name": "vue-chimee-player",
   "version": "0.1.0",
+  "description": "chimee player component/directive for vue",
+  "main": "src/directive.js",
   "scripts": {
     "example": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib src/directive.js",
     "lint": "vue-cli-service lint"
   },
-  "main": "src/directive.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexerwang/vue-chimee-player.git"
+  },
+  "keywords": [
+    "vue",
+    "chimee",
+    "video-player"
+  ],
+  "author": "Rexer Wang",
+  "license": "MIT",
   "dependencies": {
     "deepmerge": "^2.2.1"
   },

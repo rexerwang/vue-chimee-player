@@ -1,6 +1,6 @@
 # vue-chimee-player
 
-chimee player component/directive for vue
+chimee player component/directive for vue   
 用于 Vue 的 chimee 播放器组件
 
 ## Usage
