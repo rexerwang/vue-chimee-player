@@ -3,6 +3,12 @@
   "version": "0.2.0",
   "description": "chimee player component/directive for vue",
   "main": "src/directive.js",
+  "files": [
+    "src",
+    "dist/*.js",
+    "dist/*.map",
+    "dist/*.css"
+  ],
   "scripts": {
     "example": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib src/directive.js",
