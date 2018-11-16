@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vue Chimee Player</title>
+    <link rel="stylesheet" href="https://unpkg.com/chimee-player/lib/chimee-player.browser.css" />
+    <link rel="stylesheet" href="../dist/vue-chimee-player.css" />
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/chimee-player"></script>
+    <script src="../dist/vue-chimee-player.umd.js"></script>
+    <style>
+      .player {
+        width: 80rem;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body class="f">
+    <div id="app">
+      <div v-chimee-player:player="{ source }" class="player"></div>
+    </div>
+    <script>
+      // 全局引用
+      Vue.use(VueChimeePlayer)
+      
+      // Vue实例
+      const vm = new Vue({
+        el: '#app',
+        data: {
+          player: null,
+          source: [
+            {
+              src: 'http://chimee.org/vod/1.mp4',
+              resolution: 360
+            }
+          ]
+        }
+      })
+    </script>
+  </body>
+</html>

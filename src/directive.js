@@ -146,11 +146,16 @@ const directive = {
   // componentUpdated(el, binding, vnode) {},
   unbind(el, binding, vnode) {
     // 销毁播放器
-    const ctx = vnode.context
-    const ref = binding.arg || 'player'
-    ctx[ref].destroy()
-    ctx[ref] = null
-    el.classList.remove('chimee-player-container')
+    try {
+      const ctx = vnode.context
+      const ref = binding.arg || 'player'
+      ctx[ref].destroy()
+      ctx[ref] = null
+      el.classList.remove('chimee-player-container')
+    } catch (e) {
+      // eslint-disable-next-line no-console
+      console.error(e)
+    }
   },
   install(Vue) {
     Vue.directive('chimee-player', directive)

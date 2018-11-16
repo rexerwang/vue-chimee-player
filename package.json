@@ -1,6 +1,6 @@
 {
   "name": "vue-chimee-player",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "chimee player component/directive for vue",
   "main": "src/directive.js",
   "scripts": {
@@ -31,6 +31,8 @@
     "@vue/cli-plugin-eslint": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
     "@vue/eslint-config-prettier": "^3.0.5",
+    "vue": "^2.5.17",
+    "chimee-player": "latest",
     "node-sass": "^4.9.4",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.17"
