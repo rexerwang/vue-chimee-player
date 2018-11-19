@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "chimee player component/directive for vue",
   "main": "src/directive.js",
+  "browser": "dist/vue-chimee-player.umd.min.js",
   "files": [
     "src",
     "dist/*.js",

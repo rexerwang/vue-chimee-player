@@ -3,6 +3,11 @@
 chimee player component/directive for vue   
 用于 Vue 的 chimee 播放器组件
 
+## Install
+
+```npm i -S vue-chimee-player```
+> `chimee-player` 需要自行安装
+
 ## Usage
 
 1. 基本参数与 chimee 保持一致，有下列新增参数:
