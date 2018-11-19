@@ -1,11 +1,18 @@
 # vue-chimee-player
 
-chimee player component/directive for vue   
+<p>
+  <a href="https://www.npmjs.com/package/vue-chimee-player"><img src="https://img.shields.io/npm/v/vue-chimee-player.svg" alt="Version"></a>
+  <a href="https://npmcharts.com/compare/vue-chimee-player?minimal=true"><img src="https://img.shields.io/npm/dm/vue-chimee-player.svg" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/vue-chimee-player"><img src="https://img.shields.io/npm/l/vue-chimee-player.svg" alt="License"></a>
+</p>
+
+[chimee player](https://github.com/Chimeejs/chimee) component/directive for [@vuejs](http://vuejs.org)  
 用于 Vue 的 chimee 播放器组件
 
 ## Install
 
-```npm i -S vue-chimee-player```
+`npm i -S vue-chimee-player`
+
 > `chimee-player` 需要自行安装
 
 ## Usage
